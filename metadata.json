@@ -1,0 +1,6 @@
+{
+  "name": "HAYAKOUGYOU Shipping",
+  "description": "中日国際定期航路 | 日本発 中国向け 海上輸送 コンテナ海外運輸サービス",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

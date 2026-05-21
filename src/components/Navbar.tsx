@@ -11,7 +11,7 @@ export function Navbar() {
     >
       <div className="flex flex-col">
         <a href="#" className="text-2xl font-bold tracking-tighter text-[#1B365D]">
-          HAYAKOUGYOU <span className="font-normal">株式会社</span>
+          早興業<span className="font-normal">株式会社</span>
         </a>
         <p className="text-[10px] tracking-[0.2em] uppercase text-slate-400 mt-1">Japan to China Shipping Liner Route</p>
       </div>

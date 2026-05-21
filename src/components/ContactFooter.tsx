@@ -37,7 +37,7 @@ export function ContactFooter() {
           <div className="flex flex-col justify-center">
             <div className="bg-[#F9FAFB] border border-slate-200 p-10">
               <h3 className="text-sm font-bold text-[#1B365D] mb-6 tracking-widest border-b border-slate-200 pb-4">
-                HAYAKOUGYOU 株式会社
+                早興業株式会社
               </h3>
               <div className="space-y-6">
                 <div>
@@ -62,7 +62,7 @@ export function ContactFooter() {
 
       <footer className="bg-[#1B365D] text-white px-6 md:px-10 py-6 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] tracking-widest font-medium">
         <div className="flex flex-wrap justify-center gap-6 uppercase opacity-70">
-          <span>&copy; {new Date().getFullYear()} HAYAKOUGYOU CO., LTD.</span>
+          <span>&copy; {new Date().getFullYear()} 早興業株式会社</span>
           <span className="hidden sm:inline">Safety & Reliability</span>
         </div>
         <div className="flex flex-wrap justify-center gap-6">

@@ -1,6 +1,7 @@
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { Features } from './components/Features';
+import { Gallery } from './components/Gallery';
 import { EmergencyContact } from './components/EmergencyContact';
 import { FAQ } from './components/FAQ';
 import { ContactFooter } from './components/ContactFooter';
@@ -12,6 +13,7 @@ export default function App() {
       <main className="flex-1">
         <Hero />
         <Features />
+        <Gallery />
         <EmergencyContact />
         <FAQ />
       </main>

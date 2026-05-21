@@ -3,9 +3,9 @@ import { ArrowRight, Globe2 } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative min-h-[70vh] flex flex-col justify-center bg-[#F9FAFB] border-b border-slate-200">
-      <div className="max-w-7xl mx-auto px-6 md:px-10 w-full py-20">
-        <div className="max-w-3xl">
+    <section className="relative min-h-[70vh] flex flex-col justify-center bg-[#F9FAFB] border-b border-slate-200 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6 md:px-10 w-full py-20 flex flex-col lg:flex-row items-center gap-16">
+        <div className="flex-1 max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -51,6 +51,27 @@ export function Hero() {
             </a>
           </motion.div>
         </div>
+
+        {/* Hero Image Placeholder */}
+        <motion.div 
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+          className="w-full lg:w-[450px] relative hidden sm:block"
+        >
+          <div className="absolute inset-0 bg-[#E63946]/10 translate-x-4 translate-y-4"></div>
+          <div className="absolute inset-0 bg-[#1B365D] translate-x-2 translate-y-2"></div>
+          <div className="relative h-[400px] lg:h-[500px] bg-slate-200 border-2 border-[#1B365D] overflow-hidden group">
+            <img 
+              src="https://placehold.co/800x1000/e2e8f0/64748b?text=Main+Hero+Image" 
+              alt="Hero Placeholder" 
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90 mix-blend-multiply" 
+            />
+            <div className="absolute bottom-4 left-4 bg-white px-3 py-1.5 text-[10px] font-bold tracking-widest uppercase text-[#1B365D]">
+              Image Slot: Hero <span className="font-normal text-slate-500 ml-1">(e.g. Ship)</span>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

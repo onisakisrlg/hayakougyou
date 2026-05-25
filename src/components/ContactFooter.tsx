@@ -15,20 +15,31 @@ export function ContactFooter() {
               貨物輸送についてのご相談、お見積りのご依頼など、お気軽にご連絡ください。専門スタッフが迅速に対応いたします。
             </p>
             
-            <div className="space-y-6 text-sm text-slate-600">
+            <div className="space-y-6 text-sm text-slate-800">
               <div className="flex items-start gap-4">
-                <Building2 className="w-5 h-5 text-slate-400 flex-shrink-0" />
-                <div>
-                  <p>〒289-1115</p>
-                  <p>千葉県八街市八街ほ 94582</p>
+                <div className="w-10 h-10 rounded-full bg-[#1B365D]/5 flex items-center justify-center flex-shrink-0">
+                  <Building2 className="w-5 h-5 text-[#1B365D]" />
+                </div>
+                <div className="pt-1">
+                  <p className="font-mono text-slate-500 mb-1">〒289-1115</p>
+                  <p className="text-base font-medium">千葉県八街市八街ほ945-82</p>
                 </div>
               </div>
               
               <div className="flex items-start gap-4">
-                <Clock className="w-5 h-5 text-slate-400 flex-shrink-0" />
-                <div>
-                  <p>営業時間: 24時間営業</p>
-                  <p>定休日: 年中無休</p>
+                <div className="w-10 h-10 rounded-full bg-[#1B365D]/5 flex items-center justify-center flex-shrink-0">
+                  <Clock className="w-5 h-5 text-[#1B365D]" />
+                </div>
+                <div className="pt-2 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs font-bold text-slate-400 tracking-widest uppercase">営業時間</span>
+                    <span className="text-base font-medium">24時間営業</span>
+                  </div>
+                  <div className="hidden sm:block text-slate-300">/</div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs font-bold text-slate-400 tracking-widest uppercase">定休日</span>
+                    <span className="text-base font-medium">年中無休</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -41,17 +52,19 @@ export function ContactFooter() {
               </h3>
               <div className="space-y-6">
                 <div>
-                  <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mb-1">TEL</p>
-                  <a href="tel:03-6657-8918" className="flex items-center gap-3 text-[#1B365D] hover:opacity-80 transition-opacity">
-                    <Phone className="w-4 h-4 text-[#E63946]" />
-                    <span className="text-2xl font-bold tracking-wider">03-6657-8918</span>
+                  <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mb-1 flex items-center gap-1.5">
+                    <Phone className="w-3 h-3 text-[#E63946]" /> TEL
+                  </p>
+                  <a href="tel:03-6657-8918" className="inline-block text-[#1B365D] hover:opacity-80 transition-opacity">
+                    <span className="text-3xl font-black tracking-wider">03-6657-8918</span>
                   </a>
                 </div>
-                <div>
-                  <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mb-1">FAX</p>
-                  <div className="flex items-center gap-3 text-slate-600">
-                    <Printer className="w-4 h-4 text-slate-400" />
-                    <span className="text-lg font-medium tracking-wider">03-6657-8919</span>
+                <div className="pt-4 border-t border-slate-100">
+                  <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mb-1 flex items-center gap-1.5">
+                    <Printer className="w-3 h-3 text-slate-400" /> FAX
+                  </p>
+                  <div className="text-slate-600">
+                    <span className="text-xl font-medium tracking-wider text-slate-700">03-6657-8919</span>
                   </div>
                 </div>
               </div>

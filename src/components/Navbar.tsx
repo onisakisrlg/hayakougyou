@@ -17,6 +17,8 @@ export function Navbar() {
       </div>
       <nav className="hidden md:flex gap-8 text-xs font-medium tracking-widest text-slate-500">
         <a href="#services" className="hover:text-[#1B365D] transition-colors">SERVICES</a>
+        <a href="#business" className="hover:text-[#1B365D] transition-colors">BUSINESS</a>
+        <a href="#company" className="hover:text-[#1B365D] transition-colors">COMPANY</a>
         <a href="#faq" className="hover:text-[#1B365D] transition-colors">FAQ</a>
         <a href="#contact" className="text-[#E63946] hover:opacity-80 transition-opacity">CONTACT</a>
       </nav>

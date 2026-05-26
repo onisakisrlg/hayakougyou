@@ -14,13 +14,13 @@ export function EmergencyContact() {
           <div>
             <h4 className="text-[10px] font-bold text-[#E63946] tracking-widest uppercase mb-4 flex items-center gap-2">
               <span className="w-4 h-[1px] bg-[#E63946]"></span>
-              Emergency Support / 24H
+              Emergency Support
             </h4>
             <h2 className="text-2xl font-bold text-[#1B365D] mb-2">
               お客様の緊急事態をサポートします
             </h2>
             <p className="text-sm text-slate-500">
-              24時間対応。緊急時はいつでもご連絡ください。
+              緊急時はいつでもご連絡ください。
             </p>
           </div>
 

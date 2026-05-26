@@ -33,12 +33,12 @@ export function ContactFooter() {
                 <div className="pt-2 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
                   <div className="flex items-center gap-2">
                     <span className="text-xs font-bold text-slate-400 tracking-widest uppercase">営業時間</span>
-                    <span className="text-base font-medium">24時間営業</span>
+                    <span className="text-base font-medium">10:00 - 18:00</span>
                   </div>
                   <div className="hidden sm:block text-slate-300">/</div>
                   <div className="flex items-center gap-2">
                     <span className="text-xs font-bold text-slate-400 tracking-widest uppercase">定休日</span>
-                    <span className="text-base font-medium">年中無休</span>
+                    <span className="text-base font-medium">土日祝</span>
                   </div>
                 </div>
               </div>
@@ -79,7 +79,7 @@ export function ContactFooter() {
           <span className="hidden sm:inline">Safety & Reliability</span>
         </div>
         <div className="flex flex-wrap justify-center gap-6">
-          <span className="hidden sm:inline">年中無休 / 24時間営業</span>
+          <span className="hidden sm:inline">営業時間: 10:00-18:00 (定休日: 土日祝)</span>
           <span>JAPAN - CHINA LINER SERVICE</span>
         </div>
       </footer>

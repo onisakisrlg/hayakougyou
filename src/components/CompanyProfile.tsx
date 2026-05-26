@@ -7,8 +7,8 @@ export function CompanyProfile() {
     { label: "所在地", value: "〒289-1115 千葉県八街市八街ほ945-82" },
     { label: "電話番号", value: "03-6657-8918" },
     { label: "FAX", value: "03-6657-8919" },
-    { label: "営業時間", value: "24時間営業" },
-    { label: "定休日", value: "年中無休" },
+    { label: "営業時間", value: "10:00 - 18:00" },
+    { label: "定休日", value: "土日祝" },
     { label: "事業内容", value: "中日国際定期航路事業、海上コンテナ輸送（LCL/FCL対応）、輸出入手続き代行など" }
   ];
 

@@ -77,14 +77,16 @@ export function CompanyProfile() {
               viewport={{ once: true }}
               className="w-full h-full min-h-[600px] bg-slate-100 border border-slate-200 relative overflow-hidden group sticky top-24"
             >
-              <img 
-                src="https://placehold.co/800x1200/e2e8f0/64748b?text=Company+Exterior" 
-                alt="会社外観"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 mix-blend-multiply opacity-80"
-              />
-              <div className="absolute bottom-4 left-4 bg-white/95 px-3 py-1.5 text-[10px] font-bold text-[#1B365D] tracking-widest uppercase shadow-sm">
-                Image Slot: Company Exterior
-              </div>
+              <iframe
+                title="Google Maps"
+                src={`https://www.google.com/maps?q=${encodeURIComponent('〒289-1115 千葉県八街市八街ほ945-82')}&output=embed`}
+                width="100%"
+                height="100%"
+                style={{ border: 0, minHeight: '600px' }}
+                allowFullScreen={false}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </motion.div>
           </div>
         </div>

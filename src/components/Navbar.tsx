@@ -11,7 +11,7 @@ export function Navbar() {
     >
       <div className="flex flex-col">
         <a href="#" className="mb-1.5 flex items-center">
-          <img src="https://i.postimg.cc/Gm3SfpkY/20.jpg" alt="早興業株式会社" className="h-10 md:h-12 object-contain" />
+          <img src="https://i.postimg.cc/JhT5YJW0/105a95ab745eb909f9ff2e6ed23c6e8a.jpg" alt="早興業株式会社" className="h-10 md:h-12 object-contain" />
         </a>
         <p className="text-[10px] tracking-[0.15em] uppercase text-slate-400">Japan to China Shipping Liner Route</p>
       </div>

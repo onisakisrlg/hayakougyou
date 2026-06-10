@@ -63,13 +63,10 @@ export function Hero() {
           <div className="absolute inset-0 bg-[#1B365D] translate-x-2 translate-y-2"></div>
           <div className="relative h-[400px] lg:h-[500px] bg-slate-200 border-2 border-[#1B365D] overflow-hidden group">
             <img 
-              src="https://placehold.co/800x1000/e2e8f0/64748b?text=Main+Hero+Image" 
-              alt="Hero Placeholder" 
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90 mix-blend-multiply" 
+              src="https://i.postimg.cc/Lstkr6nP/2ff7543d8c96b2436c6abf08a45fdaed.jpg" 
+              alt="早興業株式会社" 
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
             />
-            <div className="absolute bottom-4 left-4 bg-white px-3 py-1.5 text-[10px] font-bold tracking-widest uppercase text-[#1B365D]">
-              Image Slot: Hero <span className="font-normal text-slate-500 ml-1">(e.g. Ship)</span>
-            </div>
           </div>
         </motion.div>
       </div>

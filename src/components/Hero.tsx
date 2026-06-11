@@ -63,7 +63,7 @@ export function Hero() {
           <div className="absolute inset-0 bg-[#1B365D] translate-x-2 translate-y-2"></div>
           <div className="relative h-[400px] lg:h-[500px] bg-slate-200 border-2 border-[#1B365D] overflow-hidden group">
             <img 
-              src="https://i.postimg.cc/Lstkr6nP/2ff7543d8c96b2436c6abf08a45fdaed.jpg" 
+              src="https://i.postimg.cc/qvt5Ypjj/82891e4bed90ddfc385641357f7d4f95.jpg" 
               alt="早興業株式会社" 
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
             />
